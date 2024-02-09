@@ -1174,7 +1174,7 @@ The purpose of this exercise is to demonstrate the utilization of multi-threadin
 
 The genius of the solve is here : 
 
-![Untitled](rustlings%20f4ce81f68e7b40798c5165d116de216f/Untitled.png)
+![Pretty smart !](/images/thread.png)
 
 To the left the inital code. To the right the modified code to make the exercise work.
 
@@ -1326,4 +1326,4 @@ fn main() {
 
 The change made in the final code involves explicitly converting the length of the slice (**`values.len()`**) to a **`f64`** type using the **`as`** keyword. By converting the length to a **`f64`** type, we ensure that the division operation (**`total / values.len() as f64`**) operates on compatible data types.
 
-![Untitled](rustlings%20f4ce81f68e7b40798c5165d116de216f/Untitled%201.png)
+![It's over !](/images/crab.png)
